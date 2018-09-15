@@ -1,5 +1,6 @@
 package com.company;
 
+import java.io.File;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -7,10 +8,6 @@ public class MethodsClass {
 
     public  static  void main(String a[])
     {
-        
-
-
-
 
     }
 
@@ -120,6 +117,31 @@ public class MethodsClass {
     public boolean isEven(int n) {
         return n % 2 == 0;
     }
+    public int sqrt(int n)
+    {
+        return (int)Math.sqrt(n);
+    }
+    public int power(int n1,int n2)
+    {
+        return (int)Math.pow(n1,n2);
+    }
+    public double circleRadius(int r)
+    {
+        double radius = (3.14)*Math.pow(r,2);
+        return radius;
+    }
+    public String fileExtension(File file)
+    {
+        String filename= file.getName();
+        int ind = filename.indexOf('.');
+        String ext = filename.substring(ind+1);
+        return ext;
+    }
+    public boolean isPositive(int num)
+    {
+        return num>0;
+    }
+
 
 
 
