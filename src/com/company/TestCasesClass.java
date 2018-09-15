@@ -30,7 +30,6 @@ public class TestCasesClass {
         MethodsClass m= MethodsClass.getinstance();
         assertSame(m,MethodsClass.getinstance());
     }
-
     @Test
     public void testTempFolder() throws IOException
     {
