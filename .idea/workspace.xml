@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eedf49a0-b6b1-40e8-881e-7ae01475761b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/Timer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingPro/com/company/MethodsClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestingPro/com/company/MethodsClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/MethodsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MethodsClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MethodsClass.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MethodsClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/MethodsClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-505">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="266">
+              <caret line="158" selection-start-line="158" selection-end-line="158" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#670#671#0" expanded="true" />
@@ -33,6 +36,19 @@
                 <element signature="e#3493#3494#0" expanded="true" />
                 <element signature="e#3862#3863#0" expanded="true" />
                 <element signature="e#3890#3891#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Timer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Timer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+              <folding>
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,6 +131,7 @@
         <option value="$PROJECT_DIR$/src/com/company/DateTestCases.java" />
         <option value="$PROJECT_DIR$/src/com/company/DateValidatorTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/MethodsClass.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Timer.java" />
       </list>
     </option>
   </component>
@@ -182,7 +199,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DateValidatorTest.testDateFeb29_2012">
+  <component name="RunManager" selected="Application.Timer">
+    <configuration name="Timer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Timer" />
+      <module name="TestingPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="DateValidatorTest.testDateFeb29_2012" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingPro" />
       <extension name="coverage">
@@ -196,52 +223,6 @@
       <option name="PACKAGE_NAME" value="com.company" />
       <option name="MAIN_CLASS_NAME" value="com.company.DateValidatorTest" />
       <option name="METHOD_NAME" value="testDateFeb29_2012" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DateValidatorTest.testDateIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingPro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.DateValidatorTest" />
-      <option name="METHOD_NAME" value="testDateIsNull" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DateValidatorTest.testDayIsInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingPro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.DateValidatorTest" />
-      <option name="METHOD_NAME" value="testDayIsInvalid" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -298,20 +279,43 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Timer.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestingPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Timer" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <list>
-      <item itemvalue="JUnit.DateValidatorTest.testDateIsNull" />
-      <item itemvalue="JUnit.DateValidatorTest.testDayIsInvalid" />
       <item itemvalue="JUnit.DateValidatorTest.testMonthIsInvalid" />
       <item itemvalue="JUnit.DateValidatorTest.testYearIsInvalid" />
       <item itemvalue="JUnit.DateValidatorTest.testDateFeb29_2012" />
+      <item itemvalue="Application.Timer" />
+      <item itemvalue="JUnit.Timer.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Timer" />
+        <item itemvalue="JUnit.Timer.Test" />
         <item itemvalue="JUnit.DateValidatorTest.testDateFeb29_2012" />
         <item itemvalue="JUnit.DateValidatorTest.testYearIsInvalid" />
         <item itemvalue="JUnit.DateValidatorTest.testMonthIsInvalid" />
-        <item itemvalue="JUnit.DateValidatorTest.testDayIsInvalid" />
-        <item itemvalue="JUnit.DateValidatorTest.testDateIsNull" />
       </list>
     </recent_temporary>
   </component>
@@ -325,17 +329,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537028918719</updated>
-      <workItem from="1537028923127" duration="3645000" />
+      <workItem from="1537028923127" duration="4432000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DateValidatorTest_testDateIsNull - 2018.09.15 at 10h 44m 12s.xml">
-      <configuration name="DateValidatorTest.testDateIsNull" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateValidatorTest_testDayIsInvalid - 2018.09.15 at 10h 44m 20s.xml">
-      <configuration name="DateValidatorTest.testDayIsInvalid" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DateValidatorTest_testMonthIsInvalid - 2018.09.15 at 10h 44m 29s.xml">
       <configuration name="DateValidatorTest.testMonthIsInvalid" configurationId="JUnit" />
     </history-entry>
@@ -345,9 +343,30 @@
     <history-entry file="DateValidatorTest_testDateFeb29_2012 - 2018.09.15 at 10h 45m 21s.xml">
       <configuration name="DateValidatorTest.testDateFeb29_2012" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Timer_Test - 2018.09.15 at 10h 56m 15s.xml">
+      <configuration name="Timer.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Timer_Test - 2018.09.15 at 10h 56m 20s.xml">
+      <configuration name="Timer.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Timer_Test - 2018.09.15 at 10h 56m 33s.xml">
+      <configuration name="Timer.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Timer_Test - 2018.09.15 at 10h 56m 49s.xml">
+      <configuration name="Timer.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Timer_Test - 2018.09.15 at 10h 56m 55s.xml">
+      <configuration name="Timer.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Timer_Test - 2018.09.15 at 10h 57m 25s.xml">
+      <configuration name="Timer.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Timer_Test - 2018.09.15 at 10h 58m 40s.xml">
+      <configuration name="Timer.Test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3645000" />
+    <option name="totallyTimeSpent" value="4432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -355,7 +374,7 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32954547" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -367,7 +386,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981076" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981076" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -464,8 +483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MethodsClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-505">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="266">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#670#671#0" expanded="true" />
@@ -480,6 +499,17 @@
             <element signature="e#3493#3494#0" expanded="true" />
             <element signature="e#3862#3863#0" expanded="true" />
             <element signature="e#3890#3891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
           </folding>
         </state>
       </provider>

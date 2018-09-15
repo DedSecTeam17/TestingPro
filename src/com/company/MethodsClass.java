@@ -156,7 +156,7 @@ public class MethodsClass {
     }
 
 
-    
+
     public String fileExtension(File file)
     {
         String filename= file.getName();
