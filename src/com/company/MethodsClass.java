@@ -3,6 +3,12 @@ package com.company;
 
 import java.io.File;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Date;
 import java.util.List;
 
 import java.util.regex.Matcher;
@@ -163,7 +169,66 @@ public class MethodsClass {
         return num>0;
     }
 
+    public boolean stringMatch(String message,String pattern)
+    {
+        return message.contains(pattern);
+    }
+
+    public boolean isDistinct(int[] arr)
+    {
+        for (int i = 0; i < arr.length - 2; i++) {
+            for (int j = i+1; j < arr.length-1; j++) {
+                if (arr[i] == arr[j])
+                    return false;
+            }
+        }
+        return true;
+    }
+
+    public String convert24Hoursto12Hours(String time)
+    {
+       DateFormat inputFormat = new SimpleDateFormat("HH:mm:ss");
+       DateFormat outputFormat = new SimpleDateFormat("hh:mm:ss aa");
+
+       Date date = null;
+       String output = "";
+
+        try {
+            date = inputFormat.parse(time);
+            output = outputFormat.format(date);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        return output;
 
 
+    }
+    boolean checkGender(String text)
+    {
+        if(text.equalsIgnoreCase("male") || text.equalsIgnoreCase("female"))
+            return true;
+        return false;
+    }
+
+    public ArrayList<Integer> getFactors(int num)
+    {
+        ArrayList<Integer> factors = new ArrayList<Integer>();
+        // Skip two if the number is odd
+        int incrementer = num % 2 == 0 ? 1 : 2;
+        for (int i = 1; i <= Math.sqrt(num); i += incrementer) {
+            // If there is no remainder, then the number is a factor.
+            if (num % i == 0) {
+                factors.add(i);
+                // Skip duplicates
+                if (i != num / i) {
+                    factors.add(num / i);
+                }
+            }
+        }
+        // Sort the list of factors
+        Collections.sort(factors);
+        return factors;
+    }
 
 }
