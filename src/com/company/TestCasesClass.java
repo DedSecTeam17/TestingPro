@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 public class TestCasesClass {
 
-<<<<<<< HEAD
+
     public static void main (String a[])
     {
 
@@ -54,10 +54,5 @@ public class TestCasesClass {
     public boolean isEven(int n) {
         return n % 2 == 0;
     }
-=======
 
-
-
-
->>>>>>> a01dcf396c48870b74dff001e06d7833260bf4dd
 }
