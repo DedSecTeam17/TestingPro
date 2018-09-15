@@ -4,7 +4,6 @@
     <list default="true" id="eedf49a0-b6b1-40e8-881e-7ae01475761b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/MethodsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MethodsClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/TestCasesClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TestCasesClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,17 +18,17 @@
       <file leaf-file-name="MethodsClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/MethodsClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+            <state relative-caret-position="966">
+              <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
                 <element signature="method#checkPassword#0;class#MethodsClass#0" />
                 <element signature="method#checkEmail#0;class#MethodsClass#0" />
                 <element signature="method#checkuserName#0;class#MethodsClass#0" />
                 <element signature="method#isNumberOnly#0;class#MethodsClass#0" />
                 <element signature="method#isPhonNumber#0;class#MethodsClass#0" />
-                <element signature="method#isLettersOnly#0;class#MethodsClass#0" />
-                <element signature="method#checkRegex#0;class#MethodsClass#0" />
               </folding>
             </state>
           </provider>
@@ -121,7 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MethodsClass">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="TestingPro" />
@@ -129,6 +128,25 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
+    <configuration name="MethodsClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.MethodsClass" />
+      <module name="TestingPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MethodsClass" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MethodsClass" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -140,12 +158,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537028918719</updated>
-      <workItem from="1537028923127" duration="1879000" />
+      <workItem from="1537028923127" duration="2435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1879000" />
+    <option name="totallyTimeSpent" value="2435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -153,6 +171,7 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -160,11 +179,11 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981076" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981076" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -203,17 +222,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MethodsClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+        <state relative-caret-position="966">
+          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
             <element signature="method#checkPassword#0;class#MethodsClass#0" />
             <element signature="method#checkEmail#0;class#MethodsClass#0" />
             <element signature="method#checkuserName#0;class#MethodsClass#0" />
             <element signature="method#isNumberOnly#0;class#MethodsClass#0" />
             <element signature="method#isPhonNumber#0;class#MethodsClass#0" />
-            <element signature="method#isLettersOnly#0;class#MethodsClass#0" />
-            <element signature="method#checkRegex#0;class#MethodsClass#0" />
           </folding>
         </state>
       </provider>

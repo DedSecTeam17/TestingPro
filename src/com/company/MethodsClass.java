@@ -5,6 +5,21 @@ import java.util.regex.Pattern;
 
 public class MethodsClass {
 
+    public  static  void main(String a[])
+    {
+        
+
+
+
+
+    }
+
+
+    private static   void  Log(String message)
+    {
+        System.out.println(message);
+    }
+
 
     //#region Fields Regex Checks
     public boolean checkPassword(String text) {
@@ -39,6 +54,14 @@ public class MethodsClass {
     public boolean isLettersOnly(String text) {
         String theRegex = "[A-Za-z\\s]+$";
         return checkRegex(theRegex,text);
+    }
+
+
+    public  boolean isBinary(String pattren)
+    {
+        String theRegex="[01]+";
+
+        return  pattren.matches(theRegex);
     }
 
     private boolean checkRegex(String theRegex, String text)
