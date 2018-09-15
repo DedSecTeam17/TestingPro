@@ -1,10 +1,10 @@
 package com.company;
 
-<<<<<<< HEAD
+
 import java.io.File;
-=======
+
 import java.util.List;
->>>>>>> 2a269d0e016cd945f8a6a2cde7a7f7f193b30c4c
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -12,14 +12,7 @@ public class MethodsClass {
 
     public  static  void main(String a[])
     {
-<<<<<<< HEAD
-=======
 
-
-
-
-
->>>>>>> 2a269d0e016cd945f8a6a2cde7a7f7f193b30c4c
 
     }
 
