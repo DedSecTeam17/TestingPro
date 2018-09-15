@@ -1,12 +1,10 @@
 package com.company;
 
-<<<<<<< HEAD
+
 import java.util.ArrayList;
-=======
 
 import java.io.File;
 
->>>>>>> 3383cd911180c217bdb92e51af6c75cbc8164bbe
 import java.util.List;
 
 import java.util.regex.Matcher;
@@ -18,12 +16,7 @@ public class MethodsClass {
     {
 
 
-<<<<<<< HEAD
 
-
-
-=======
->>>>>>> 3383cd911180c217bdb92e51af6c75cbc8164bbe
     }
 
 
@@ -161,6 +154,9 @@ public class MethodsClass {
         double radius = (3.14)*Math.pow(r,2);
         return radius;
     }
+
+
+    
     public String fileExtension(File file)
     {
         String filename= file.getName();
