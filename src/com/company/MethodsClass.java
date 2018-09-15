@@ -7,7 +7,8 @@ public class MethodsClass {
 
     public  static  void main(String a[])
     {
-        
+
+
 
 
 
@@ -15,6 +16,11 @@ public class MethodsClass {
     }
 
 
+    private  boolean checkIfTowNumbersAreCompatible(int num1,int num2)
+    {
+        return Math.floorMod(num1, num2) == 0;
+    }
+    
     private static   void  Log(String message)
     {
         System.out.println(message);
