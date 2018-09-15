@@ -18,14 +18,14 @@ import java.util.regex.Pattern;
 
 public class MethodsClass {
 
-    public  static  void main(String a[])
+    private static MethodsClass instance ;
+    public static MethodsClass getinstance()
     {
-
-
-
+        if (instance ==null)
+            instance = new MethodsClass();
+        return instance;
     }
-
-
+    private MethodsClass() {}
 
     private  int checkSumOfArrayNumbers(List<Integer> integers)
     {
