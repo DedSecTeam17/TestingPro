@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eedf49a0-b6b1-40e8-881e-7ae01475761b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MethodsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MethodsClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MethodsClass.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MethodsClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/MethodsClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1539">
-              <caret line="159" column="42" lean-forward="true" selection-start-line="159" selection-start-column="42" selection-end-line="159" selection-end-column="42" />
+            <state relative-caret-position="274">
+              <caret line="171" selection-start-line="171" selection-end-line="171" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#670#671#0" expanded="true" />
@@ -57,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginUser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/LoginUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+            <state relative-caret-position="167">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,10 +157,10 @@
         <option value="$PROJECT_DIR$/src/com/company/DateValidator.java" />
         <option value="$PROJECT_DIR$/src/com/company/DateTestCases.java" />
         <option value="$PROJECT_DIR$/src/com/company/DateValidatorTest.java" />
-        <option value="$PROJECT_DIR$/src/com/company/MethodsClass.java" />
         <option value="$PROJECT_DIR$/src/com/company/Timer.java" />
         <option value="$PROJECT_DIR$/src/com/company/User.java" />
         <option value="$PROJECT_DIR$/src/com/company/LoginUser.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MethodsClass.java" />
       </list>
     </option>
   </component>
@@ -346,29 +345,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537028918719</updated>
-      <workItem from="1537028923127" duration="4890000" />
+      <workItem from="1537028923127" duration="6031000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DateValidatorTest_testMonthIsInvalid - 2018.09.15 at 10h 44m 29s.xml">
-      <configuration name="DateValidatorTest.testMonthIsInvalid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateValidatorTest_testYearIsInvalid - 2018.09.15 at 10h 44m 59s.xml">
-      <configuration name="DateValidatorTest.testYearIsInvalid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateValidatorTest_testDateFeb29_2012 - 2018.09.15 at 10h 45m 21s.xml">
-      <configuration name="DateValidatorTest.testDateFeb29_2012" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Timer_Test - 2018.09.15 at 10h 56m 15s.xml">
-      <configuration name="Timer.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Timer_Test - 2018.09.15 at 10h 56m 20s.xml">
-      <configuration name="Timer.Test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Timer_Test - 2018.09.15 at 10h 56m 33s.xml">
-      <configuration name="Timer.Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Timer_Test - 2018.09.15 at 10h 56m 49s.xml">
       <configuration name="Timer.Test" configurationId="JUnit" />
     </history-entry>
@@ -381,22 +362,39 @@
     <history-entry file="Timer_Test - 2018.09.15 at 10h 58m 40s.xml">
       <configuration name="Timer.Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LoginUser_Test - 2018.09.15 at 11h 09m 26s.xml">
+      <configuration name="LoginUser.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginUser_Test - 2018.09.15 at 11h 10m 31s.xml">
+      <configuration name="LoginUser.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginUser_Test - 2018.09.15 at 11h 11m 59s.xml">
+      <configuration name="LoginUser.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginUser_Test - 2018.09.15 at 11h 12m 05s.xml">
+      <configuration name="LoginUser.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginUser_Test - 2018.09.15 at 11h 12m 33s.xml">
+      <configuration name="LoginUser.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginUser_Test - 2018.09.15 at 11h 12m 51s.xml">
+      <configuration name="LoginUser.Test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4890000" />
+    <option name="totallyTimeSpent" value="6031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" weight="0.32954547" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
@@ -404,17 +402,17 @@
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981076" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24981076" />
       <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
@@ -438,6 +436,10 @@
       </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
@@ -509,28 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MethodsClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="159" column="42" lean-forward="true" selection-start-line="159" selection-start-column="42" selection-end-line="159" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#3302#3303#0" expanded="true" />
-            <element signature="e#3335#3336#0" expanded="true" />
-            <element signature="e#3368#3369#0" expanded="true" />
-            <element signature="e#3408#3409#0" expanded="true" />
-            <element signature="e#3450#3451#0" expanded="true" />
-            <element signature="e#3493#3494#0" expanded="true" />
-            <element signature="e#3862#3863#0" expanded="true" />
-            <element signature="e#3890#3891#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -549,10 +529,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LoginUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        <state relative-caret-position="167">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MethodsClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="171" selection-start-line="171" selection-end-line="171" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#3302#3303#0" expanded="true" />
+            <element signature="e#3335#3336#0" expanded="true" />
+            <element signature="e#3368#3369#0" expanded="true" />
+            <element signature="e#3408#3409#0" expanded="true" />
+            <element signature="e#3450#3451#0" expanded="true" />
+            <element signature="e#3493#3494#0" expanded="true" />
+            <element signature="e#3862#3863#0" expanded="true" />
+            <element signature="e#3890#3891#0" expanded="true" />
           </folding>
         </state>
       </provider>
