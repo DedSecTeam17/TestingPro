@@ -1,7 +1,14 @@
 package com.company;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
+=======
+
+import java.io.File;
+
+>>>>>>> 3383cd911180c217bdb92e51af6c75cbc8164bbe
 import java.util.List;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -11,9 +18,12 @@ public class MethodsClass {
     {
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 3383cd911180c217bdb92e51af6c75cbc8164bbe
     }
 
 
@@ -138,6 +148,31 @@ public class MethodsClass {
     public boolean isEven(int n) {
         return n % 2 == 0;
     }
+    public int sqrt(int n)
+    {
+        return (int)Math.sqrt(n);
+    }
+    public int power(int n1,int n2)
+    {
+        return (int)Math.pow(n1,n2);
+    }
+    public double circleRadius(int r)
+    {
+        double radius = (3.14)*Math.pow(r,2);
+        return radius;
+    }
+    public String fileExtension(File file)
+    {
+        String filename= file.getName();
+        int ind = filename.indexOf('.');
+        String ext = filename.substring(ind+1);
+        return ext;
+    }
+    public boolean isPositive(int num)
+    {
+        return num>0;
+    }
+
 
 
 
