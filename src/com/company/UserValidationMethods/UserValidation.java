@@ -37,6 +37,12 @@ public class UserValidation {
         String theRegex = "[A-Za-z\\s]+$";
         return checkRegex(theRegex,text);
     }
+    boolean checkGender(String text)
+    {
+        if(text.equalsIgnoreCase("male") || text.equalsIgnoreCase("female"))
+            return true;
+        return false;
+    }
     private boolean checkRegex(String theRegex, String text)
     {
         Pattern checkRegex = Pattern.compile(theRegex);

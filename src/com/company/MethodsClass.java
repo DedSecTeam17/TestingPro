@@ -118,9 +118,6 @@ public class MethodsClass {
         double radius = (3.14)*Math.pow(r,2);
         return radius;
     }
-
-
-
     public String fileExtension(File file)
     {
         String filename= file.getName();
@@ -132,12 +129,10 @@ public class MethodsClass {
     {
         return num>0;
     }
-
     public boolean stringMatch(String message,String pattern)
     {
         return message.contains(pattern);
     }
-
     public boolean isDistinct(int[] arr)
     {
         for (int i = 0; i < arr.length - 2; i++) {
@@ -148,6 +143,9 @@ public class MethodsClass {
         }
         return true;
     }
+
+
+
 
     public String convert24Hoursto12Hours(String time)
     {
@@ -168,12 +166,7 @@ public class MethodsClass {
 
 
     }
-    boolean checkGender(String text)
-    {
-        if(text.equalsIgnoreCase("male") || text.equalsIgnoreCase("female"))
-            return true;
-        return false;
-    }
+
 
     public ArrayList<Integer> getFactors(int num)
     {

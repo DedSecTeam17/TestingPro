@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Date;
 
 
 
@@ -18,7 +18,6 @@ public class DateValidator {
         sdf.setLenient(false);
 
         try {
-
             //if not valid, it will throw ParseException
             Date date = sdf.parse(dateToValidate);
             System.out.println(date);

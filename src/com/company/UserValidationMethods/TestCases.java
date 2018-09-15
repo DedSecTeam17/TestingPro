@@ -61,11 +61,11 @@ public class TestCases {
         assertTrue(userValidation.isPhonNumber("0902649933"));
     }
 
-
-
-
-
-
+    @Test
+    public  void  TestGender()
+    {
+        assertTrue(userValidation.checkGender("male"));
+    }
     @AfterClass
     public static void  tearDown()
     {

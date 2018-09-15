@@ -1,8 +1,11 @@
-package com.company;
+package com.company.Date;
+import com.company.Categories.DATE;
+import jdk.jfr.Category;
 import org.junit.*;
 
 import static org.junit.Assert.*;
 
+@org.junit.experimental.categories.Category(DATE.class)
 public class DateValidatorTest {
 
     private DateValidator dateValidator;
