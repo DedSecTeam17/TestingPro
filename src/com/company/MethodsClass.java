@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -16,6 +17,17 @@ public class MethodsClass {
     }
 
 
+
+    private  int checkSumOfArrayNumbers(List<Integer> integers)
+    {
+        int sum=0;
+        for (Integer integer:integers)
+        {
+            sum+=integer;
+
+        }
+        return  sum;
+    }
     private  boolean checkIfTowNumbersAreCompatible(int num1,int num2)
     {
         return Math.floorMod(num1, num2) == 0;
