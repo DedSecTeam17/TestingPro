@@ -5,6 +5,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,12 +20,10 @@ public class TestCases {
         numbers = new Numbers();
     }
 
-
     @Test
     public void TestBinary() {
         assertTrue(numbers.isBinary("10001001000101110"));
     }
-
 
     @Test
     public void TestDistinctArray() {
@@ -61,7 +60,6 @@ public class TestCases {
         assertEquals(numbers.gcd(4, 2), 2);
     }
 
-
     @Test
     public void TestSortedArray() {
         assertArrayEquals(numbers.bubbleSort(new int[]{1, 2, 3,4}), new int[]{1, 2, 3, 4});
@@ -74,7 +72,6 @@ public class TestCases {
 
     }
 
-
     @Test
     public void TestSumOFarray() {
         List<Integer> list = new ArrayList<>();
@@ -84,14 +81,12 @@ public class TestCases {
 
     }
 
-
     @Test
     public void TestcheckIfTowNumbersAreCompatible() {
 
         assertTrue(numbers.checkIfTowNumbersAreCompatible(4, 2));
 
     }
-
 
     @Test
     public void TestPower() {
@@ -107,7 +102,6 @@ public class TestCases {
 
     }
 
-
     @Test
     public void TestFactor() {
         List<Integer> list = new ArrayList<>();
@@ -117,6 +111,19 @@ public class TestCases {
         list.add(8);
         assertEquals(numbers.getFactors(8), list);
 
+    }
+
+    @Test
+    public void TestFileExtension()
+    {
+        File f = new File("a.pdf");
+        assertEquals(numbers.fileExtension(f),"pdf");
+    }
+
+    @Test
+    public void TestTimeCoversion()
+    {
+        assertEquals(numbers.convert24Hoursto12Hours("23:22:12"),"11:22:12 PM");
     }
 
 

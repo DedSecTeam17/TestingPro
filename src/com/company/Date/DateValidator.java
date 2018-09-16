@@ -7,7 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class DateValidator {
-
+    //Takes two strings a date input and its format and checks if its valid or not
     public boolean isThisDateValid(String dateToValidate, String dateFromat){
 
         if(dateToValidate == null){

@@ -23,12 +23,11 @@ public class TestCasesClass {
     {
         assertEquals("testMethodName",testName.getMethodName());
     }
-
     @Test
     public void singletonTest()
     {
-        MethodsClass m= MethodsClass.getinstance();
-        assertSame(m,MethodsClass.getinstance());
+        SingletonClass m= SingletonClass.getinstance();
+        assertSame(m,SingletonClass.getinstance());
     }
     @Test
     public void testTempFolder() throws IOException
@@ -36,7 +35,5 @@ public class TestCasesClass {
         File tempFolder = temporaryFolder.newFolder("temp Folder");
         assertTrue(tempFolder.exists());
     }
-
-
 
 }

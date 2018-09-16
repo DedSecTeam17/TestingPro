@@ -1,5 +1,6 @@
-package com.company;
+package com.company.Paramatrized;
 
+import com.company.User;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -19,23 +20,14 @@ public class LoginUser {
         users.add(new User("mohamed","1449"));
         return  users;
     }
-    @Test
-    public  void  Test()
-    {
 
 
-        assertTrue(checkUser("mohamed","1337"));
-
-    }
-
-
-
-    public  boolean  checkUser(String userName,String password)
+    public  boolean  checkUser(User testInput)
     {
 
         for (User user:getAllUsers())
         {
-            if (user.getUserName().equals(userName) && user.getPassword().equals(password))
+            if (user.getUserName().equals(testInput.getUserName()) && user.getPassword().equals(testInput.getPassword()))
             {
                 return  true;
             }

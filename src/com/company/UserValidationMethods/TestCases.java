@@ -66,6 +66,7 @@ public class TestCases {
     {
         assertTrue(userValidation.checkGender("male"));
     }
+
     @AfterClass
     public static void  tearDown()
     {
