@@ -14,10 +14,7 @@ public class Numbers {
     public  static  void  main(String a[])
     {
 
-        for (Integer x:new Numbers().getFactors(8))
-        {
-            Log(String.valueOf(x));
-        }
+        Log(new Numbers().convert24Hoursto12Hours("23:22:12"));
 
     }
 
