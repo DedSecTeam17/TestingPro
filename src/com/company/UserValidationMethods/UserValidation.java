@@ -5,24 +5,29 @@ import java.util.regex.Pattern;
 
 public class UserValidation {
     //#region Fields Regex Checks
-    public boolean checkPassword(String text) {
+    public boolean checkPassword(String text)
+    {
         String theRegex = "[A-Za-z0-9]{6,}";
         return checkRegex(theRegex,text);
     }
-    public boolean checkEmail(String text) {
+    public boolean checkEmail(String text)
+    {
         String theRegex = "[A-Za-z0-9.-_]+@[A-Za-z]+\\.[A-Za-z]{2,3}";
         return checkRegex(theRegex,text);
     }
-    public boolean checkuserName(String text) {
+    public boolean checkuserName(String text)
+    {
         String theRegex = "\\w{6,15}\\w";
         return checkRegex(theRegex,text);
     }
     //checks for numbers only with no spaces
-    public boolean isNumberOnly(String text) {
+    public boolean isNumberOnly(String text)
+    {
         String theRegex = "[0-9]+$";
         return checkRegex(theRegex,text);
     }
-    public boolean isPhonNumber(String text) {
+    public boolean isPhonNumber(String text)
+    {
         String theRegex = "[0-9]+$";
         if (text.length()==10){
             return checkRegex(theRegex,text);
@@ -33,10 +38,12 @@ public class UserValidation {
 
     }
     //checks for letters only with or without spaces
-    public boolean isLettersOnly(String text) {
+    public boolean isLettersOnly(String text)
+    {
         String theRegex = "[A-Za-z\\s]+$";
         return checkRegex(theRegex,text);
     }
+    //Checks for gender(Either male or female)
     boolean checkGender(String text)
     {
         if(text.equalsIgnoreCase("male") || text.equalsIgnoreCase("female"))

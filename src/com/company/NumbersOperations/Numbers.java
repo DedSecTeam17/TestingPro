@@ -21,8 +21,12 @@ public class Numbers {
 
     }
 
+    public static   void  Log(String message)
+    {
+        System.out.println(message);
+    }
 
-
+    //Takes an array and returns the sum of that array
     public   int checkSumOfArrayNumbers(List<Integer> integers)
     {
         int sum=0;
@@ -33,31 +37,20 @@ public class Numbers {
         }
         return  sum;
     }
+
     public  boolean checkIfTowNumbersAreCompatible(int num1,int num2)
     {
         return Math.floorMod(num1, num2) == 0;
     }
 
-    public static   void  Log(String message)
-    {
-        System.out.println(message);
-    }
-
-
-
-
-
-
-
+    //Takes a string and checks if its a binary pattern or not (0s and 1s only)
     public  boolean isBinary(String pattren)
     {
         String theRegex="[01]+";
 
         return  pattren.matches(theRegex);
     }
-
-
-
+    //Takes two numbers and returns the greatest common divisor
     public int gcd(int firstNum, int secondNum)
     {
         if (secondNum==0)
@@ -66,15 +59,16 @@ public class Numbers {
             return gcd(secondNum,firstNum%secondNum);
 
     }
-
-    public boolean isPrime(int n) {
+    //Takes an int and checks if it's prime or not
+    public boolean isPrime(int n)
+    {
         for(int i=2;i<n;i++) {
             if(n%i==0)
                 return false;
         }
         return true;
     }
-
+    //Takes an array and sort it using bubbleSort
     public int[] bubbleSort(int arr[])
     {
         int n = arr.length;
@@ -89,29 +83,35 @@ public class Numbers {
                 }
         return arr;
     }
-
-    public int factorial(int n){
+    //Takes an int and returns its factorial
+    public int factorial(int n)
+    {
         if (n == 0)
             return 1;
         else
             return(n * factorial(n-1));
     }
+    //Takes an int and checks if its even or not
     public boolean isEven(int n) {
         return n % 2 == 0;
     }
+    //Takes an int and returns the square root of it
     public int sqrt(int n)
     {
         return (int)Math.sqrt(n);
     }
+    //Takes two ints x,y and returns x^y
     public int power(int n1,int n2)
     {
         return (int)Math.pow(n1,n2);
     }
+    //Takes an int as radius
     public double circleRadius(int r)
     {
         double radius = (3.14)*Math.pow(r,2);
         return radius;
     }
+    //Takes a file and returns its extension (example : "file.pdf" - returns "pdf")
     public String fileExtension(File file)
     {
         String filename= file.getName();
@@ -119,14 +119,18 @@ public class Numbers {
         String ext = filename.substring(ind+1);
         return ext;
     }
+
+    //takes an int and checks if its positive
     public boolean isPositive(int num)
     {
         return num>0;
     }
+    //Takes a String message and pattern and checks for the pattern in the message
     public boolean stringMatch(String message,String pattern)
     {
         return message.contains(pattern);
     }
+    //Takes an array and checks if all the elements are distinct
     public boolean isDistinct(int[] arr)
     {
         for (int i = 0; i < arr.length - 2; i++) {
@@ -137,6 +141,7 @@ public class Numbers {
         }
         return true;
     }
+    //Takes a 24 hours format string time and returns the 12 hours format(example takes:"23:20:20" returns:"11:20:20 PM")
     public String convert24Hoursto12Hours(String time)
     {
         DateFormat inputFormat = new SimpleDateFormat("HH:mm:ss");
@@ -156,6 +161,7 @@ public class Numbers {
 
 
     }
+    //Takes a number and returns its Factors
     public ArrayList<Integer> getFactors(int num)
     {
         ArrayList<Integer> factors = new ArrayList<Integer>();

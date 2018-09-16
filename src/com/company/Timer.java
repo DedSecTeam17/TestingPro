@@ -9,9 +9,6 @@ public class Timer {
         System.out.println(Timer(3));
     }
 
-
-
-
     public  static  boolean Timer(int stopTime)
     {
         final boolean[] _return = {false};
@@ -29,8 +26,6 @@ public class Timer {
                    stop();
 
                 }
-
-
                 try {
                     sleep(1000);
                     run();
@@ -40,17 +35,7 @@ public class Timer {
             }
         };
         thread.start();
-
         return _return[0];
-
     }
-
-
-
-
-
-
-
-
 
 }
