@@ -1,8 +1,5 @@
 package com.company.Paramatrized;
 
-import com.company.User;
-import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.List;
 

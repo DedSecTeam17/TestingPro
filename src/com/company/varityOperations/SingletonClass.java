@@ -1,4 +1,4 @@
-package com.company;
+package com.company.varityOperations;
 
 
 public class SingletonClass {
@@ -11,9 +11,4 @@ public class SingletonClass {
         return instance;
     }
     private SingletonClass() {}
-
-
-
-
-
 }

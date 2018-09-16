@@ -1,22 +1,19 @@
-package com.company;
+package com.company.varityOperations;
 
+import com.company.Categories.VAR;
 import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.TemporaryFolder;
+import org.junit.experimental.categories.Category;
 import org.junit.rules.TestName;
 
-import java.io.File;
-import java.io.IOException;
-
 import static org.junit.Assert.*;
-
+@Category(VAR.class)
 public class TestCasesClass {
 
     @Rule
     public TestName testName = new TestName();
 
-    @Rule
-    public TemporaryFolder temporaryFolder = new TemporaryFolder();
+
 
     @Test
     public void testMethodName()
@@ -29,11 +26,6 @@ public class TestCasesClass {
         SingletonClass m= SingletonClass.getinstance();
         assertSame(m,SingletonClass.getinstance());
     }
-    @Test
-    public void testTempFolder() throws IOException
-    {
-        File tempFolder = temporaryFolder.newFolder("temp Folder");
-        assertTrue(tempFolder.exists());
-    }
+
 
 }

@@ -1,4 +1,4 @@
 package com.company.Categories;
 
-public interface NUMBERS {
+public interface VAR {
 }

@@ -1,6 +1,6 @@
-package com.company.NumbersOperations;
+package com.company.NumericOperations;
 
-import com.company.UserValidationMethods.UserValidation;
+import com.company.Categories.NUMERIC;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -11,13 +11,13 @@ import java.util.List;
 
 import static junit.framework.TestCase.*;
 import static org.junit.Assert.assertArrayEquals;
-
-public class TestCases {
-    private static Numbers numbers;
+@org.junit.experimental.categories.Category(NUMERIC.class)
+public class NumericTestCases {
+    private static NumericMethods numbers;
 
     @BeforeClass
     public static void setUp() {
-        numbers = new Numbers();
+        numbers = new NumericMethods();
     }
 
     @Test
@@ -113,12 +113,7 @@ public class TestCases {
 
     }
 
-    @Test
-    public void TestFileExtension()
-    {
-        File f = new File("a.pdf");
-        assertEquals(numbers.fileExtension(f),"pdf");
-    }
+
 
     @Test
     public void TestTimeCoversion()

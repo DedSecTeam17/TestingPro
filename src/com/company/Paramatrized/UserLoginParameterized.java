@@ -1,6 +1,6 @@
 package com.company.Paramatrized;
 
-import com.company.User;
+import jdk.jfr.Category;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;

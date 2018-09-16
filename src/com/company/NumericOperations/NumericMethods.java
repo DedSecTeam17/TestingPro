@@ -1,4 +1,4 @@
-package com.company.NumbersOperations;
+package com.company.NumericOperations;
 
 import java.io.File;
 import java.text.DateFormat;
@@ -8,20 +8,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
+public class NumericMethods {
 
-public class Numbers {
 
-    public  static  void  main(String a[])
-    {
 
-        Log(new Numbers().convert24Hoursto12Hours("23:22:12"));
-
-    }
-
-    public static   void  Log(String message)
-    {
-        System.out.println(message);
-    }
 
     //Takes an array and returns the sum of that array
     public   int checkSumOfArrayNumbers(List<Integer> integers)
@@ -34,7 +24,6 @@ public class Numbers {
         }
         return  sum;
     }
-
     public  boolean checkIfTowNumbersAreCompatible(int num1,int num2)
     {
         return Math.floorMod(num1, num2) == 0;
@@ -109,13 +98,7 @@ public class Numbers {
         return radius;
     }
     //Takes a file and returns its extension (example : "file.pdf" - returns "pdf")
-    public String fileExtension(File file)
-    {
-        String filename= file.getName();
-        int ind = filename.indexOf('.');
-        String ext = filename.substring(ind+1);
-        return ext;
-    }
+
 
     //takes an int and checks if its positive
     public boolean isPositive(int num)

@@ -8,7 +8,7 @@ import org.junit.experimental.categories.Category;
 
 import static junit.framework.TestCase.*;
 @Category(USER_VALIDATION.class)
-public class TestCases {
+public class UserValidationTestCases {
 
 
     private static UserValidation userValidation;
