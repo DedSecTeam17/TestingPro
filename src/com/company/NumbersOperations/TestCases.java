@@ -64,7 +64,7 @@ public class TestCases {
 
     @Test
     public void TestSortedArray() {
-        assertArrayEquals(numbers.bubbleSort(new int[]{1, 2, 3}), new int[]{1, 2, 3, 4});
+        assertArrayEquals(numbers.bubbleSort(new int[]{1, 2, 3,4}), new int[]{1, 2, 3, 4});
 
     }
 

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eedf49a0-b6b1-40e8-881e-7ae01475761b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/NumbersOperations/Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/NumbersOperations/TestCases.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/MethodsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MethodsClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NumbersOperations/TestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/NumbersOperations/TestCases.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,13 +13,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/TestingPro$DateValidatorTest.ic" NAME="DateValidatorTest Coverage Results" MODIFIED="1537083667525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.Date.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestingPro$TestCases.ic" NAME="TestCases Coverage Results" MODIFIED="1537083585822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.NumbersOperations.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MethodsClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/MethodsClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="345">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,17 +35,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Numbers.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Numbers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/NumbersOperations/Numbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="176" column="5" lean-forward="true" selection-start-line="176" selection-start-column="5" selection-end-line="176" selection-end-column="5" />
+            <state relative-caret-position="164">
+              <caret line="176" column="5" selection-start-line="176" selection-start-column="5" selection-end-line="176" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
                 <element signature="method#gcd#0;class#Numbers#0" />
                 <element signature="method#bubbleSort#0;class#Numbers#0" />
                 <element signature="method#factorial#0;class#Numbers#0" />
@@ -48,37 +50,19 @@
                 <element signature="method#isDistinct#0;class#Numbers#0" />
                 <element signature="method#convert24Hoursto12Hours#0;class#Numbers#0" />
                 <element signature="method#getFactors#0;class#Numbers#0" />
-                <element signature="e#3353#3362#0" expanded="true" />
+                <element signature="e#3512#3521#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCases.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestCases.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/NumbersOperations/TestCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="122" selection-start-line="122" selection-end-line="122" />
+            <state relative-caret-position="-920">
+              <caret line="73" selection-start-line="72" selection-end-line="73" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#706#707#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#909#910#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#1018#1019#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1151#1152#0" expanded="true" />
-                <element signature="e#1184#1185#0" expanded="true" />
-                <element signature="e#1236#1237#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,16 +91,10 @@
       <file leaf-file-name="TestCases.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/UserValidationMethods/TestCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="73" selection-end-column="5" />
+            <state relative-caret-position="1219">
+              <caret line="68" selection-start-line="68" selection-end-line="73" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-                <element signature="e#1071#1072#0" expanded="true" />
-                <element signature="e#1263#1264#0" expanded="true" />
-                <element signature="e#1332#1333#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,8 +103,8 @@
       <file leaf-file-name="LoginUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/LoginUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="621">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,7 +115,7 @@
       <file leaf-file-name="Timer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Timer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
+            <state relative-caret-position="575">
               <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
               <folding>
                 <element signature="e#115#116#0" expanded="true" />
@@ -150,7 +128,7 @@
       <file leaf-file-name="DateValidator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Date/DateValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="138">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -163,7 +141,7 @@
       <file leaf-file-name="DateValidatorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Date/DateValidatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="69">
               <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -267,21 +245,14 @@
               <item name="TestingPro" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="NumbersOperations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestingPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestingPro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="UserValidationMethods" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -301,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestCases.TestFactor">
+  <component name="RunManager" selected="JUnit.DateValidatorTest">
     <configuration name="Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.NumbersOperations.Numbers" />
       <module name="TestingPro" />
@@ -311,6 +282,52 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+    </configuration>
+    <configuration name="DateValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestingPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Date.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company.Date" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Date.DateValidatorTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestCases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestingPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.NumbersOperations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company.NumbersOperations" />
+      <option name="MAIN_CLASS_NAME" value="com.company.NumbersOperations.TestCases" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="TestCases.TestFactor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestingPro" />
@@ -325,29 +342,6 @@
       <option name="PACKAGE_NAME" value="com.company.NumbersOperations" />
       <option name="MAIN_CLASS_NAME" value="com.company.NumbersOperations.TestCases" />
       <option name="METHOD_NAME" value="TestFactor" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestCases.TestPower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingPro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.NumbersOperations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.company.NumbersOperations" />
-      <option name="MAIN_CLASS_NAME" value="com.company.NumbersOperations.TestCases" />
-      <option name="METHOD_NAME" value="TestPower" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -381,43 +375,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestCases.TestcheckIfTowNumbersAreCompatible" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestingPro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.NumbersOperations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.company.NumbersOperations" />
-      <option name="MAIN_CLASS_NAME" value="com.company.NumbersOperations.TestCases" />
-      <option name="METHOD_NAME" value="TestcheckIfTowNumbersAreCompatible" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <list>
-      <item itemvalue="JUnit.TestCases.TestcheckIfTowNumbersAreCompatible" />
-      <item itemvalue="JUnit.TestCases.TestPower" />
       <item itemvalue="JUnit.TestCases.TestSqrt" />
       <item itemvalue="Application.Numbers" />
       <item itemvalue="JUnit.TestCases.TestFactor" />
+      <item itemvalue="JUnit.TestCases" />
+      <item itemvalue="JUnit.DateValidatorTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DateValidatorTest" />
+        <item itemvalue="JUnit.TestCases" />
         <item itemvalue="JUnit.TestCases.TestFactor" />
         <item itemvalue="Application.Numbers" />
         <item itemvalue="JUnit.TestCases.TestSqrt" />
-        <item itemvalue="JUnit.TestCases.TestPower" />
-        <item itemvalue="JUnit.TestCases.TestcheckIfTowNumbersAreCompatible" />
       </list>
     </recent_temporary>
   </component>
@@ -431,23 +402,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537028918719</updated>
-      <workItem from="1537028923127" duration="10964000" />
+      <workItem from="1537028923127" duration="10996000" />
+      <workItem from="1537083513485" duration="168000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DateValidatorTest_testDateFormatIsInvalid - 2018.09.15 at 12h 13m 07s.xml">
-      <configuration name="DateValidatorTest.testDateFormatIsInvalid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_TestGender - 2018.09.15 at 12h 18m 13s.xml">
-      <configuration name="TestCases.TestGender" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_TestStringMatching - 2018.09.15 at 12h 32m 00s.xml">
-      <configuration name="TestCases.TestStringMatching" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCases_TestStringMatching - 2018.09.15 at 12h 32m 07s.xml">
-      <configuration name="TestCases.TestStringMatching" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestCases_TestNumberRadius - 2018.09.15 at 12h 39m 27s.xml">
       <configuration name="TestCases.TestNumberRadius" configurationId="JUnit" />
     </history-entry>
@@ -466,42 +426,54 @@
     <history-entry file="TestCases_TestFactor - 2018.09.15 at 12h 47m 48s.xml">
       <configuration name="TestCases.TestFactor" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestCases - 2018.09.16 at 00h 39m 13s.xml">
+      <configuration name="TestCases" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCases - 2018.09.16 at 00h 39m 47s.xml">
+      <configuration name="TestCases" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateValidatorTest - 2018.09.16 at 00h 40m 33s.xml">
+      <configuration name="DateValidatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DateValidatorTest - 2018.09.16 at 00h 41m 09s.xml">
+      <configuration name="DateValidatorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10964000" />
+    <option name="totallyTimeSpent" value="11164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32954547" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32954547" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info id="Image Layers" />
+      <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981076" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32901135" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.24981076" />
-      <window_info id="UI Designer" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,13 +492,123 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/MethodsClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="345">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/NumbersOperations/TestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2185">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/UserValidationMethods/UserValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#checkPassword#0;class#UserValidation#0" />
+            <element signature="method#checkEmail#0;class#UserValidation#0" />
+            <element signature="method#checkuserName#0;class#UserValidation#0" />
+            <element signature="method#isNumberOnly#0;class#UserValidation#0" />
+            <element signature="method#isPhonNumber#0;class#UserValidation#0" />
+            <element signature="method#isLettersOnly#0;class#UserValidation#0" />
+            <element signature="method#checkGender#0;class#UserValidation#0" />
+            <element signature="method#checkRegex#0;class#UserValidation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/UserValidationMethods/TestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Date/DateValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#isThisDateValid#0;class#DateValidator#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Date/DateValidatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Categories/DATE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/NumbersOperations/Numbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4048">
+          <caret line="176" column="5" lean-forward="true" selection-start-line="176" selection-start-column="5" selection-end-line="176" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#gcd#0;class#Numbers#0" />
+            <element signature="method#bubbleSort#0;class#Numbers#0" />
+            <element signature="method#factorial#0;class#Numbers#0" />
+            <element signature="method#circleRadius#0;class#Numbers#0" />
+            <element signature="method#fileExtension#0;class#Numbers#0" />
+            <element signature="method#isDistinct#0;class#Numbers#0" />
+            <element signature="method#convert24Hoursto12Hours#0;class#Numbers#0" />
+            <element signature="method#getFactors#0;class#Numbers#0" />
+            <element signature="e#3512#3521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -598,7 +680,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Date/DateValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="138">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -609,7 +691,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Date/DateValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="69">
           <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -619,8 +701,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/LoginUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="621">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -629,7 +711,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Timer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
+        <state relative-caret-position="575">
           <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
           <folding>
             <element signature="e#115#116#0" expanded="true" />
@@ -658,68 +740,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/UserValidationMethods/TestCases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="73" selection-end-column="5" />
+        <state relative-caret-position="1219">
+          <caret line="68" selection-start-line="68" selection-end-line="73" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1263#1264#0" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MethodsClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="345">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/NumbersOperations/TestCases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
-            <element signature="e#1184#1185#0" expanded="true" />
-            <element signature="e#1236#1237#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/NumbersOperations/Numbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="176" column="5" lean-forward="true" selection-start-line="176" selection-start-column="5" selection-end-line="176" selection-end-column="5" />
+        <state relative-caret-position="164">
+          <caret line="176" column="5" selection-start-line="176" selection-start-column="5" selection-end-line="176" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
             <element signature="method#gcd#0;class#Numbers#0" />
             <element signature="method#bubbleSort#0;class#Numbers#0" />
             <element signature="method#factorial#0;class#Numbers#0" />
@@ -728,7 +772,17 @@
             <element signature="method#isDistinct#0;class#Numbers#0" />
             <element signature="method#convert24Hoursto12Hours#0;class#Numbers#0" />
             <element signature="method#getFactors#0;class#Numbers#0" />
-            <element signature="e#3353#3362#0" expanded="true" />
+            <element signature="e#3512#3521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/NumbersOperations/TestCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-920">
+          <caret line="73" selection-start-line="72" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
